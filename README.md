@@ -1,5 +1,6 @@
 # WebTable
-Automation test
+Automation test in C# and Selenium Web Driver
 
-1. This project was created in Visual Studio Code. In order to execute the tests run the following command in the terminal or command prompt:
-"dotnet test"
+Getting Started
+1. If you are using Visual Studio Code: 
+To execute all tests run "dotnet test" in the terminal. 
