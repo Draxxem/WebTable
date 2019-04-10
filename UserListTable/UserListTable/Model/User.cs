@@ -11,6 +11,5 @@ namespace UserListTable.Model
         public string Role { get; set; }
         public string Email { get; set; }
         public string Cell { get; set; }
-
     }
 }

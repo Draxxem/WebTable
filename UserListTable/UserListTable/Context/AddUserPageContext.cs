@@ -17,7 +17,6 @@ namespace UserListTable.Context
             this.driver = driver;
         }
 
-
         public void EnterFirstName(string firstName)
         {
             var wait = new WebDriverWait(this.driver, TimeSpan.FromSeconds(10));

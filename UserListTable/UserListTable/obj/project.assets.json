@@ -5924,11 +5924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darryndu\\source\\repos\\UserListTable\\UserListTable\\UserListTable.csproj",
+      "projectUniqueName": "C:\\Users\\Darryndu\\Documents\\Darryn Automation Test\\WebTable\\UserListTable\\UserListTable\\UserListTable.csproj",
       "projectName": "UserListTable",
-      "projectPath": "C:\\Users\\Darryndu\\source\\repos\\UserListTable\\UserListTable\\UserListTable.csproj",
+      "projectPath": "C:\\Users\\Darryndu\\Documents\\Darryn Automation Test\\WebTable\\UserListTable\\UserListTable\\UserListTable.csproj",
       "packagesPath": "C:\\Users\\Darryndu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darryndu\\source\\repos\\UserListTable\\UserListTable\\obj\\",
+      "outputPath": "C:\\Users\\Darryndu\\Documents\\Darryn Automation Test\\WebTable\\UserListTable\\UserListTable\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5971,7 +5971,6 @@
             "version": "[15.8.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
