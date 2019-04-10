@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "ExcelDataReader/2.1.2.3": {
-        "type": "package",
-        "dependencies": {
-          "SharpZipLib": "0.86.0"
-        },
-        "compile": {
-          "lib/net45/Excel.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Excel.dll": {}
-        }
-      },
       "Microsoft.CodeCoverage/15.8.0": {
         "type": "package",
         "compile": {
@@ -714,15 +702,6 @@
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
-        }
-      },
-      "SharpZipLib/0.86.0": {
-        "type": "package",
-        "compile": {
-          "lib/20/ICSharpCode.SharpZipLib.dll": {}
-        },
-        "runtime": {
-          "lib/20/ICSharpCode.SharpZipLib.dll": {}
         }
       },
       "shortid/2.0.0": {
@@ -1685,21 +1664,6 @@
     }
   },
   "libraries": {
-    "ExcelDataReader/2.1.2.3": {
-      "sha512": "SAXvsLfc9Fy0XiUr8iz/HvpK1ILYwPk5Y/yFuXeOx3jTnWjN984Epx4CQTDxOfndWB4Vg0208vWYev/vuud2Zw==",
-      "type": "package",
-      "path": "exceldatareader/2.1.2.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "exceldatareader.2.1.2.3.nupkg.sha512",
-        "exceldatareader.nuspec",
-        "lib/net20/Excel.dll",
-        "lib/net20/Excel.pdb",
-        "lib/net45/Excel.dll",
-        "lib/net45/Excel.pdb"
-      ]
-    },
     "Microsoft.CodeCoverage/15.8.0": {
       "sha512": "cgcX2c/K35GrIjXkUwWop2GyG/YsLVo2wnL/2ESzOqr4V21FrrCVYuhpClv/bD80+rwXyIpyulqSX1NBNeAtMA==",
       "type": "package",
@@ -2853,21 +2817,6 @@
         "driver/win32/chromedriver.exe",
         "selenium.webdriver.chromedriver.2.46.0.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
-      ]
-    },
-    "SharpZipLib/0.86.0": {
-      "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
-      "type": "package",
-      "path": "sharpziplib/0.86.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/11/ICSharpCode.SharpZipLib.dll",
-        "lib/20/ICSharpCode.SharpZipLib.dll",
-        "lib/SL3/SharpZipLib.Silverlight3.dll",
-        "lib/SL4/SharpZipLib.Silverlight4.dll",
-        "sharpziplib.0.86.0.nupkg.sha512",
-        "sharpziplib.nuspec"
       ]
     },
     "shortid/2.0.0": {
@@ -5905,7 +5854,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "ExcelDataReader >= 2.1.2.3",
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -5958,10 +5906,6 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "ExcelDataReader": {
-            "target": "Package",
-            "version": "[2.1.2.3, )"
-          },
           "MSTest.TestFramework": {
             "target": "Package",
             "version": "[1.4.0, )"
@@ -6007,27 +5951,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'ExcelDataReader 2.1.2.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
-      "libraryId": "ExcelDataReader",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SharpZipLib 0.86.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
-      "libraryId": "SharpZipLib",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }
