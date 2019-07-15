@@ -17,7 +17,7 @@ http://www.way2automation.com/angularjs-protractor/webtables/
 - Test1: Check URL of navigated page
 - Test 2: Check that the web table exists
 - Test 3: - Add 2 users with unique Usernames on each test run
-          - test data is stored in .json format, this is desirealized 
+          - test data is stored in .json format 
 
 
 # Demo's not currently available
