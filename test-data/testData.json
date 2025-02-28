@@ -1,0 +1,11 @@
+{
+    "name": "FName",
+    "lastname": "LName",
+    "username": "User",
+    "password": "Pass",
+    "adminEmail": "admin@mail.com",
+    "custEmail": "customer@mail.com",
+    "lastname": "LName",
+    "mobile1" : "082555",
+    "mobile2":"082444"
+}

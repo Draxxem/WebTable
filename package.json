@@ -1,0 +1,28 @@
+{
+  "name": "webtable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Draxxem/WebTable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Draxxem/WebTable/issues"
+  },
+  "homepage": "https://github.com/Draxxem/WebTable#readme",
+  "dependencies": {
+    "monocart-reporter": "^2.9.15"
+  }
+}
