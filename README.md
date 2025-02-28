@@ -9,7 +9,8 @@ Download latest version of Visual Studio Code
 
 How to run the tests
 - From terminal
-1. To execute all tests run the following command 'npx playwright test --grep "@UItest"'
+1. To execute all tests run the following command 'npx playwright test
+2. To execute all tests tagged as '@UItests' only, run the following command 'npx playwright test --grep "@UItest"'
 2. To view test Report run 'npx monocart show-report test-results/report.html'
 
 #OR
@@ -18,6 +19,14 @@ How to run the tests
 1. Install Playwright Test for VSCode extension
 2. Test will be visible from Test Explorer
 
+#Guthub Workflow 
+
+A test job is triggered whenever a branch gets merged into main branch
+1. You can also view test results of workflow runs on Github Action tab
+1. A Test report is available to download by selecting a Workflow run ---> (https://github.com/Draxxem/WebTable/actions)
+![alt text](image.png)
+
+![alt text](image-1.png)
 
 #Overview of project structure
 - The root directory contains key configuration files such as package.json for dependencies and scripts, .gitignore 
